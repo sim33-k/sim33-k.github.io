@@ -1,0 +1,251 @@
+%-------------------------
+% Resume in Latex
+% Author : Harshibar
+% Edited for improved readability
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{microtype}
+\usepackage{contour}
+\usepackage[normalem]{ulem}
+\usepackage[sfdefault]{inter}
+\usepackage[T1]{fontenc}
+
+% Colors
+\definecolor{light-grey}{gray}{0.83}
+\definecolor{dark-grey}{gray}{0.3}
+\definecolor{text-grey}{gray}{.08}
+\definecolor{title-blue}{HTML}{003399}
+
+% Underline
+\renewcommand{\ULdepth}{1.8pt}
+\contourlength{0.8pt}
+\newcommand{\myuline}[1]{%
+  \uline{\phantom{#1}}%
+  \llap{\contour{white}{#1}}%
+}
+
+% Header/Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+\setlength{\footskip}{4.08003pt}
+
+% Section style
+\titleformat{\section}{
+    \color{title-blue}\bfseries \vspace{2pt} \raggedright \large
+}{}{0em}{}[\color{light-grey} {\titlerule[2pt]} \vspace{-4pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1 \vspace{-2pt}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & {\color{dark-grey}\small #2} \\
+      \textit{#3} & {\color{dark-grey} \small #4} \\
+    \end{tabular*}\vspace{-4pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & {\color{dark-grey}\small #2} \\
+    \end{tabular*}\vspace{-4pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+\color{text-grey}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%
+
+\begin{document}
+\linespread{1.25}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\color{title-blue}\Huge Simaak Niyaz} \\ \vspace{5pt}
+    \small 
+    {\color{title-blue}\faPhone*} \texttt{+94 77 999 8336} $|$
+    {\color{title-blue}\faEnvelope} \href{mailto:simaak.oissl@gmail.com}{\texttt{simaak.oissl@gmail.com}} $|$ 
+    {\color{title-blue}\faLinkedin} \href{https://linkedin.com/in/simaak}{\texttt{linkedin.com/in/simaak}} $|$
+    {\color{title-blue}\faGithub} \href{https://github.com/sim33-k}{\texttt{github.com/sim33-k}}
+    \\ 
+    {\color{title-blue}\faGlobe} \href{https://sim33-k.github.io/}{\texttt{sim33-k.github.io}} $|$
+    {\color{title-blue}\faBehance} \href{https://www.behance.net/simaakniyaz}{\texttt{behance.net/simaakniyaz}}
+    \\ \vspace{-3pt}
+\end{center}
+
+\section{PERSONAL PROFILE}
+Third-year Computer Science undergraduate with expertise in full-stack development, object-oriented
+programming, and RDBMS technologies. Seeking a Software Engineering Internship to write testable,
+efficient code across the development lifecycle and contribute to innovative projects. Passionate about learning
+cutting-edge technologies and collaborating with dynamic teams to build exceptional digital products.
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Colombo School of Computing}{May 2023 -- Present}
+      {B.Sc. (Hons) in Computer Science}{GPA: 3.71/4.00}
+      \resumeItemListStart
+        \resumeItem{Director's List — (3 of 4 semesters: 1, 3, 4)}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Zahira College Colombo}{2012 -- 2021}
+      {Physical Science}{Colombo, Sri Lanka}
+  \resumeSubHeadingListEnd
+
+%-----------SKILLS-----------
+\section{SKILLS \& INTERESTS}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \item{
+     \textbf{Programming Languages:} JavaScript, TypeScript, Java, PHP, Python, C, C++, \vspace{3pt} \\
+     \textbf{Frameworks \& Libraries:} React, React Native, Node.js, Express, Next.js, Spring Boot, Prisma  \vspace{3pt} \\
+     \textbf{Databases \& Cloud:} MySQL, MongoDB, PostgreSQL, Supabase, AWS, GCP, Vercel \vspace{3pt} \\
+     \textbf{Developer Tools:} Git, GitHub Actions, Docker, Figma, Postman, Jira \vspace{3pt} \\
+     \textbf{Research:} Ontologies, Knowledge Graphs, Re-identification Risks in Data Privacy
+    }
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \resumeSubHeadingListStart
+
+        \resumeProjectHeading
+          {\textbf{Evergreen Tea Factory Collection Platform} \href{https://github.com/EverGreen-Group/Evergreen_Project}{{\color{title-blue}\faGithub}} }{2025}
+          \resumeItemListStart
+            \resumeItem{Web platform for low-country tea factories, suppliers, and collectors to automate collection scheduling, inventory, invoicing, and payment tracking, improving transparency and efficiency across the supply chain}
+            \resumeItem{\textbf{Technologies:} PHP (MVC), JavaScript, MySQL, Google Maps API, GCP}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{MotorTrace} \href{https://github.com/orgs/motortrace/repositories}{{\color{title-blue}\faGithub}} }{2025}
+          \resumeItemListStart
+            \resumeItem{Full-stack automotive service management platform with web app for auto repair shops and mobile app for vehicle owners, enabling appointment scheduling, service tracking, inventory management, and real-time updates}
+            \resumeItem{\textbf{Technologies:} TypeScript, React, React Native, Node.js, Express, PostgreSQL, Supabase, Prisma}
+          \resumeItemListEnd
+
+
+
+
+        \resumeProjectHeading
+          {\textbf{Car Log} \href{https://github.com/orgs/CarLog-Mobile/repositories}{{\color{title-blue}\faGithub}} }{Ongoing}
+          \resumeItemListStart
+            \resumeItem{Full-stack mobile application for vehicle owners to track maintenance records, service reminders, expense tracking, vehicle health monitoring, and service history management}
+            \resumeItem{\textbf{Technologies:} Java, Spring Boot, React Native, PostgreSQL}
+          \resumeItemListEnd
+
+
+
+        \newpage
+
+        \resumeProjectHeading
+          {\textbf{Note Nest} \href{https://github.com/sim33-k/simaak-note}{{\color{title-blue}\faGithub}} }{2025}
+          \resumeItemListStart
+            \resumeItem{Full-stack note-taking application with AI-powered content generation, rich text editor, real-time auto-save, and secure authentication}
+            \resumeItem{\textbf{Technologies:} Next.js, TypeScript, PostgreSQL, Drizzle, TipTap Editor, Gemini AI, Clerk, Neon}
+          \resumeItemListEnd
+
+
+
+
+        \resumeProjectHeading
+          {\textbf{Restaurant POS System} \href{https://github.com/sim33-k/CodingLegends}{{\color{title-blue}\faGithub}} }{2025}
+          \resumeItemListStart
+            \resumeItem{Built a full-stack point-of-sale system with RESTful API functionality, enabling efficient menu management, seamless order processing, and real-time sales reporting.}
+            \resumeItem{\textbf{Technologies:} React, TypeScript, Express.js, PostgreSQL, Prisma, Tailwind, Shadcn, Vercel}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Fitness Trainer Chatbot} \href{https://github.com/sim33-k/ChatBot}{{\color{title-blue}\faGithub}} }{2025}
+          \resumeItemListStart
+            \resumeItem{AI-powered fitness assistant that retrieves and summarizes workout routines and training information using vector search and LLMs, with AWS deployment for scalability}
+            \resumeItem{\textbf{Technologies:} Python, Flask, LangChain, Pinecone, HuggingFace, Gemini API, HTML/CSS/JS, AWS}
+          \resumeItemListEnd
+
+        \resumeProjectHeading
+          {\textbf{Electra} \href{https://github.com/electra-project/rad-v2}{{\color{title-blue}\faGithub}} }{2024}
+          \resumeItemListStart
+            \resumeItem{E-commerce platform for computer shops with secure user management, real-time inventory, payment integration, and modular REST APIs}
+            \resumeItem{\textbf{Technologies:} React, Node.js, Express.js, MongoDB}
+          \resumeItemListEnd
+
+
+    \resumeSubHeadingListEnd
+
+%-----------CERTIFICATIONS-----------
+\section{CERTIFICATIONS}
+ \resumeSubHeadingListStart
+   \resumeItem{Introduction to Cloud 101 (AWS Educate)}
+   \resumeItem{Data Science Foundations - 1 (IBM)}
+   \resumeItem{Python for Beginners (University of Moratuwa)}
+   \resumeItem{Github for Beginners (Microsoft)}
+ \resumeSubHeadingListEnd
+
+%-----------WORK EXPERIENCE-----------
+\section{WORK EXPERIENCE}
+ \resumeSubHeadingListStart
+   \resumeSubheading
+     {Inter-Continental Connections B.V.}{2021 -- 2022}
+     {Graphic Designer}{Kaatsheuvel, Netherlands}
+     \resumeItemListStart
+       \resumeItem{Created marketing materials, logos, and brand guidelines for client projects.}
+     \resumeItemListEnd
+ \resumeSubHeadingListEnd
+
+%-----------VOLUNTEERING-----------
+\section{VOLUNTEERING}
+ \resumeSubHeadingListStart
+   \resumeSubheading
+     {IEEE Student Branch, UCSC}{2023 -- Present}
+     {Member}{Colombo, Sri Lanka}
+   \resumeSubheading
+     {Computer Society of Zahira College Colombo}{2019 -- 2020}
+     {Editor-in-Chief}{Colombo, Sri Lanka}
+ \resumeSubHeadingListEnd
+
+%-----------REFERENCES-----------
+\section{REFERENCES}
+\resumeSubHeadingListStart
+ \resumeSubheading
+    {Mr. Kenneth Thilakarathna}{BIT (Col.), MPhil (Col.)}
+    {Senior Lecturer, University of Colombo School of Computing} {Mobile: 0773479547}
+    \resumeItemListStart
+      \resumeItem{Email: kmt@ucsc.cmb.ac.lk}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Mr. Malik Silva}{BSc (Col), MSc (York)}
+    {Senior Lecturer, University of Colombo School of Computing}{Mobile: 0777627801}
+    \resumeItemListStart
+      \resumeItem{Email: mks@ucsc.cmb.ac.lk}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\end{document}
