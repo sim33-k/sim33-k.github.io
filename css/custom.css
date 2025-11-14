@@ -1,2 +1,102 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+
+/* Project Cards Styling */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.project-card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-card .card-body {
+    padding: 1.5rem;
+}
+
+.project-card .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+    color: #333;
+}
+
+.project-card .card-text {
+    color: #666;
+    margin-bottom: 1rem;
+    flex-grow: 1;
+}
+
+.project-card .badge {
+    font-size: 0.75rem;
+    padding: 0.35rem 0.65rem;
+    margin-right: 0.25rem;
+}
+
+.project-card .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.project-card .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: scale(1.02);
+}
+
+/* Project Detail Page Styling */
+.project-detail {
+    background-color: #f8f9fa;
+}
+
+.project-detail h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.project-detail h3 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #444;
+    margin-bottom: 1rem;
+}
+
+.project-detail h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #555;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.project-detail ul {
+    padding-left: 1.5rem;
+}
+
+.project-detail ul li {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .project-card .card-img-top {
+        height: 180px;
+    }
+    
+    .project-detail h1 {
+        font-size: 2rem;
+    }
+}

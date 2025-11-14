@@ -119,80 +119,112 @@
 		<div class="container">
 			<div class="section-title text-left">
                 <h3>Portfolio</h3>
-                <p>Here are selected projects demonstrating responsive web apps, frontend engineering, and user-centered design. Highlights include interactive dashboards, accessible interfaces, and performance-optimized sites — each project includes a short case note and links to the live demo or source code.</p>
+                <p>Here are selected projects demonstrating responsive web apps, frontend engineering, and user-centered design. Highlights include interactive dashboards, accessible interfaces, and performance-optimized sites.</p>
             </div><!-- end title -->
 			
-			<div class="gallery-menu row">
-				<div class="col-md-12">
-                    <div class="button-group filter-button-group text-left">
-                        <button class="active" data-filter="*">All</button>
-                        <button data-filter=".gal_d">Group Projects</button>
-                        <button data-filter=".gal_a">Personal Projects</button>
-                        <button data-filter=".gal_b">Creative Design</button>
-                        <button data-filter=".gal_c">Graphic Design</button>
-                    </div>
-				</div>
-			</div>
-			
-			<div class="gallery-list row">
-				<div class="col-md-4 col-sm-6 gallery-grid gal_d">
-					<div class="gallery-single fix">
-						<img src="images/motortace.jpeg" class="img-fluid" alt="MotorTrace">
-						<div class="img-overlay">
-							<a href="#" data-toggle="modal" data-target="#projectModal1" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
-						</div>
-					</div>
-				</div>				<div class="col-md-4 col-sm-6 gallery-grid gal_d">
-					<div class="gallery-single fix">
-						<img src="images/carlog.png" class="img-fluid" alt="CarLog">
-						<div class="img-overlay">
-							<a href="#" data-toggle="modal" data-target="#projectModal2" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+			<div class="row">
+				<!-- Project Card 1: MotorTrace -->
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="card project-card h-100">
+						<img src="images/motortace.jpeg" class="card-img-top" alt="MotorTrace">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">MotorTrace</h5>
+							<p class="card-text">Full-stack automotive service management platform with web and mobile apps.</p>
+							<div class="mt-auto">
+								<span class="badge badge-secondary mb-2">React</span>
+								<span class="badge badge-secondary mb-2">Node.js</span>
+								<span class="badge badge-secondary mb-2">React Native</span>
+								<a href="project-motortrace.html" class="btn btn-primary btn-block mt-2">View Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img src="images/leaf.png" class="img-fluid" alt="Tea Leaf Collection">
-						<div class="img-overlay">
-							<a href="#" data-toggle="modal" data-target="#projectModal3" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+
+				<!-- Project Card 2: CarLog -->
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="card project-card h-100">
+						<img src="images/carlog.png" class="card-img-top" alt="CarLog">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">CarLog</h5>
+							<p class="card-text">Mobile app for vehicle tracking, maintenance, and expense management.</p>
+							<div class="mt-auto">
+								<span class="badge badge-secondary mb-2">React Native</span>
+								<span class="badge badge-secondary mb-2">Spring Boot</span>
+								<a href="project-carlog.html" class="btn btn-primary btn-block mt-2">View Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_a">
-					<div class="gallery-single fix">
-						<img src="images/note.png" class="img-fluid" alt="Note Taking Assistant">
-						<div class="img-overlay">
-							<a href="#" data-toggle="modal" data-target="#projectModal4" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+
+				<!-- Project Card 3: Tea Leaf Collection -->
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="card project-card h-100">
+						<img src="images/leaf.png" class="card-img-top" alt="Tea Leaf Collection">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Tea Leaf Collection System</h5>
+							<p class="card-text">Vehicle routing optimization using OptaPlanner for logistics.</p>
+							<div class="mt-auto">
+								<span class="badge badge-secondary mb-2">Spring Boot</span>
+								<span class="badge badge-secondary mb-2">OptaPlanner</span>
+								<a href="project-tealeaf.html" class="btn btn-primary btn-block mt-2">View Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_d">
-					<div class="gallery-single fix">
-						<img src="images/evergreen.png" class="img-fluid" alt="Evergreen">
-						<div class="img-overlay">
-							<a href="#" data-toggle="modal" data-target="#projectModal5" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+
+				<!-- Project Card 4: Note Taking Assistant -->
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="card project-card h-100">
+						<img src="images/note.png" class="card-img-top" alt="Note Taking Assistant">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Note Nest</h5>
+							<p class="card-text">AI-powered note-taking app with Gemini autocomplete and rich text editing.</p>
+							<div class="mt-auto">
+								<span class="badge badge-secondary mb-2">Next.js</span>
+								<span class="badge badge-secondary mb-2">Gemini AI</span>
+								<a href="project-notenest.html" class="btn btn-primary btn-block mt-2">View Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
-				
-				<div class="col-md-4 col-sm-6 gallery-grid gal_d">
-					<div class="gallery-single fix">
-						<img src="images/electra.jpg" class="img-fluid" alt="Electra">
-						<div class="img-overlay">
-							<a href="#" data-toggle="modal" data-target="#projectModal6" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+
+				<!-- Project Card 5: Evergreen -->
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="card project-card h-100">
+						<img src="images/evergreen.png" class="card-img-top" alt="Evergreen">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Evergreen</h5>
+							<p class="card-text">Tea factory management platform built with custom MVC architecture.</p>
+							<div class="mt-auto">
+								<span class="badge badge-secondary mb-2">PHP</span>
+								<span class="badge badge-secondary mb-2">MySQL</span>
+								<a href="project-evergreen.html" class="btn btn-primary btn-block mt-2">View Project</a>
+							</div>
 						</div>
 					</div>
 				</div>
-			</div>
+
+				<!-- Project Card 6: Electra -->
+				<div class="col-md-4 col-sm-6 mb-4">
+					<div class="card project-card h-100">
+						<img src="images/electra.jpg" class="card-img-top" alt="Electra">
+						<div class="card-body d-flex flex-column">
+							<h5 class="card-title">Electra</h5>
+							<p class="card-text">E-commerce platform with secure authentication and inventory management.</p>
+							<div class="mt-auto">
+								<span class="badge badge-secondary mb-2">React</span>
+								<span class="badge badge-secondary mb-2">MongoDB</span>
+								<a href="project-electra.html" class="btn btn-primary btn-block mt-2">View Project</a>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-    <!-- Project Modals -->
-    <!-- Modal 1 -->
+    <!-- Modals removed - replaced with individual project pages -->
+    <!--
     <div class="modal fade" id="projectModal1" tabindex="-1" role="dialog" aria-labelledby="projectModal1Label" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
@@ -341,15 +373,15 @@
             </div>
         </div>
     </div>
-    
+    -->
     
 
-    <div id="contact" class="section db">
+    <!-- <div id="contact" class="section db">
         <div class="container">
             <div class="section-title text-left">
                 <h3>Contact</h3>
                 <p>I'm open to internship opportunities and collaboration on interesting projects. Feel free to reach out at <a href="mailto:simaakniyaz@gmail.com" style="color: #fff; text-decoration: underline;">simaakniyaz@gmail.com</a> or use the form below.</p>
-            </div><!-- end title -->
+            </div>
 
             <div class="row">
                 <div class="col-md-12">
@@ -385,10 +417,10 @@
 							</div>
 						</form>
                     </div>
-                </div><!-- end col -->
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </div><!-- end section -->
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <div class="copyrights">
         <div class="container">
@@ -396,7 +428,6 @@
                 <div class="footer-left">
                     <p class="footer-links">
                         <a href="#">Home</a>
-                        <a href="#">Pricing</a>
                         <a href="#">About</a>
                         <a href="#">Faq</a>
                         <a href="#">Contact</a>

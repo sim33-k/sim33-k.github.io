@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Tea Leaf Collection System - Simaak Portfolio</title>
+    
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="index.html">
+                <img class="img-fluid" src="images/logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                Menu <i class="fa fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger active" href="index.html#portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Project Content -->
+    <section class="project-detail" style="padding-top: 120px; padding-bottom: 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <a href="index.html#portfolio" class="btn btn-secondary mb-4">← Back to Portfolio</a>
+                    <h1 class="mb-4">Tea Leaf Collection Optimization System</h1>
+                </div>
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-8">
+                    <img src="images/leaf.png" class="img-fluid mb-4" alt="Tea Leaf Collection">
+                </div>
+                <div class="col-lg-4">
+                    <h3>Project Overview</h3>
+                    <p><strong>Type:</strong> Personal Project</p>
+                    <p><strong>Year:</strong> 2025</p>
+                    <p><strong>Role:</strong> Backend Developer</p>
+                    
+                    <h4 class="mt-4">Technologies</h4>
+                    <p>
+                        <span class="badge badge-secondary mb-2">Java Spring Boot</span>
+                        <span class="badge badge-secondary mb-2">OptaPlanner</span>
+                        <span class="badge badge-secondary mb-2">PostgreSQL</span>
+                        <span class="badge badge-secondary mb-2">Google Maps API</span>
+                    </p>
+                    
+                    <h4 class="mt-4">Links</h4>
+                    <a href="https://github.com/SW33TSTUFF/teacollection-backend" target="_blank" class="btn btn-primary btn-block">
+                        <i class="fa fa-github"></i> View on GitHub
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-8">
+                    <h3>Project Description</h3>
+                    <p>An advanced logistics optimization system designed to solve complex vehicle routing problems for tea leaf collection operations. This system extends the Evergreen platform with intelligent route planning capabilities.</p>
+                    
+                    <h4 class="mt-4">Key Features</h4>
+                    <ul>
+                        <li><strong>CVRP Solver:</strong> Solves Capacitated Vehicle Routing Problems using constraint programming</li>
+                        <li><strong>Load Optimization:</strong> Minimizes truck under-loading and over-loading scenarios</li>
+                        <li><strong>Route Planning:</strong> Generates optimal collection routes considering time windows</li>
+                        <li><strong>Distance Calculation:</strong> Real-time distance matrix using Google Maps API</li>
+                        <li><strong>Constraint Management:</strong> Handles multiple constraints including vehicle capacity, time windows, and driver availability</li>
+                        <li><strong>Real-time Adjustments:</strong> Dynamic route recalculation based on actual conditions</li>
+                    </ul>
+
+                    <h4 class="mt-4">Technical Highlights</h4>
+                    <p>The system leverages OptaPlanner, a powerful constraint satisfaction solver, to optimize vehicle routes. It uses various optimization algorithms including Tabu Search and Simulated Annealing to find near-optimal solutions for complex routing problems. The backend is built with Spring Boot for robustness and scalability.</p>
+
+                    <h4 class="mt-4">Problem Solving Approach</h4>
+                    <ul>
+                        <li>Implemented custom score calculators for domain-specific constraints</li>
+                        <li>Designed constraint streams for efficient problem evaluation</li>
+                        <li>Integrated Google Maps Distance Matrix API for accurate travel time estimation</li>
+                        <li>Optimized solver configuration for fast solution generation</li>
+                        <li>Built RESTful APIs for integration with the Evergreen platform</li>
+                    </ul>
+
+                    <h4 class="mt-4">Impact</h4>
+                    <p>This optimization system significantly reduced fuel costs and collection time for tea factories by providing intelligent route planning. It minimized vehicle under-utilization and ensured timely collection from all suppliers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2025 <a href="#">Simaak</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/all.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
