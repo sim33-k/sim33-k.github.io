@@ -1,6 +1,13 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
 
+/* Navbar - Remove transparent background */
+#mainNav {
+    background-color: #000000 !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* Project Cards Styling */
 .project-card {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
