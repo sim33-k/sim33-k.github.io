@@ -106,28 +106,84 @@
     background-color: #007bff;
 }
 
+/* Project Description Section */
 .project-detail h3 {
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: #444;
-    margin-bottom: 1rem;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 1.25rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid #007bff;
+    display: inline-block;
 }
 
 .project-detail h4 {
-    font-size: 1.25rem;
+    font-size: 1.375rem;
     font-weight: 600;
-    color: #555;
-    margin-top: 1.5rem;
+    color: #333;
+    margin-top: 2rem;
     margin-bottom: 1rem;
+    position: relative;
+    padding-left: 15px;
+}
+
+.project-detail h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 24px;
+    background-color: #007bff;
+    border-radius: 2px;
+}
+
+.project-detail p {
+    font-size: 1.05rem;
+    line-height: 1.75;
+    color: #555;
+    margin-bottom: 1.25rem;
 }
 
 .project-detail ul {
-    padding-left: 1.5rem;
+    padding-left: 1.75rem;
+    margin-bottom: 1.5rem;
 }
 
 .project-detail ul li {
-    margin-bottom: 0.75rem;
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: #555;
+    font-size: 1rem;
+}
+
+.project-detail ul li strong {
+    color: #222;
+    font-weight: 600;
+}
+
+/* Project Overview Box Styling */
+.project-detail .col-lg-4 h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.project-detail .col-lg-4 h4 {
+    font-size: 1.125rem;
+    padding-left: 0;
+}
+
+.project-detail .col-lg-4 h4::before {
+    display: none;
+}
+
+.project-detail .col-lg-4 p {
+    font-size: 0.95rem;
     line-height: 1.6;
+    margin-bottom: 0.5rem;
 }
 
 /* Portfolio Tabs Styling */
